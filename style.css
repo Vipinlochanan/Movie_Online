@@ -1,0 +1,30 @@
+
+body
+{
+	background-image: url(./image/bg.jpg);
+	background-size: cover;
+}
+* 
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.dropdown-menu
+{
+	text-align: center;
+}
+.dropdown :hover > .dropdown-menu,  .dropend:hover > .dropdown-menu
+ {
+ 	display: block;
+ 	color: red;
+
+}
+.dropend:hover > .dropdown-menu
+{
+	position: absolute;
+	top:0;
+	left: 100%;
+}
+
